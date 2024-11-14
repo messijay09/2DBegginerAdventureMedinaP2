@@ -9,9 +9,9 @@ public class healthcolle : MonoBehaviour
         duckcontroller controller = other.GetComponent<duckcontroller>();
         if (controller != null)
         {
-            if (controller.CurrentHealth < controller.maxHealth)
+            if (controller.health < controller.maxHealth)
             {
-                controller.GetHashCode();
+                controller.ChangeHealth(1);
                 Destroy(gameObject);
             }
 
