@@ -6,7 +6,7 @@ public class DamageZone : MonoBehaviour
 {
     void OnTriggerStay2D(Collider2D other)
     {
-        duckcontroller controller = other.GetComponent<duckcontroller>();
+        duckocontroller controller = other.GetComponent<duckocontroller>();
 
         if (controller != null)
         {

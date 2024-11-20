@@ -6,7 +6,7 @@ public class healthcolle : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
-        duckcontroller controller = other.GetComponent<duckcontroller>();
+        duckocontroller controller = other.GetComponent<duckocontroller>();
         if (controller != null)
         {
             if (controller.health < controller.maxHealth)

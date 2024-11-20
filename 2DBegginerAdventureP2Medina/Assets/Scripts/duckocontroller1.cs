@@ -1,6 +1,6 @@
 ﻿using System;
 
-internal class duckocontroller
+internal class Duckocontroller
 {
     internal void ChangeHealth(int v)
     {

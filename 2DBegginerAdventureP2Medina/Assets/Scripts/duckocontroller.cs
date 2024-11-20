@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class duckcontroller : MonoBehaviour
+public class duckocontroller : MonoBehaviour
 {
     public float speed = 3.0f;
 
